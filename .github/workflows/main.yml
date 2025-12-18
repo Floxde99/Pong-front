@@ -26,5 +26,5 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           gh workflow run deploy.yml \
-            --repo Bluelagoon44/Pong-infra \
+            --repo Floxde99/Pong-infra \
             -f source=frontend
